@@ -4,42 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Đặng Tuấn Kiệt</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="text-center mt-5">
             <h1>CV Đặng Tuấn Kiệt</h1>
         </header>
         <section>
             <h2>Thông Tin Cá Nhân</h2>
-            <p>Họ và tên: Đặng Tuấn Kiệt</p>
-            <p>Ngày sinh: 04/10/2002</p>
-            <p>Địa chỉ: Số nhà 123, Đường ABC, Quận XYZ, Thành phố Hồ Chí Minh</p>
-            <p>Email: example@example.com</p>
-            <p>Điện thoại: 0123 456 789</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="avatar.jpg" class="img-fluid rounded-circle" alt="Avatar">
+                </div>
+                <div class="col-md-9">
+                    <div class="card">
+                        <div class="card-body">
+                            <p>Họ và tên: Đặng Tuấn Kiệt</p>
+                            <p>Ngày sinh: 04/10/2002</p>
+                            <p>Địa chỉ: Số nhà 123, Đường ABC, Quận XYZ, Thành phố Hồ Chí Minh</p>
+                            <p>Email: example@example.com</p>
+                            <p>Điện thoại: 0123 456 789</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>Học Vấn</h2>
-            <h3>Đại học ABC</h3>
-            <p>Bằng Cử Nhân Ngành ABC</p>
-            <p>Năm tốt nghiệp: 20XX</p>
-        </section>
-        <section>
-            <h2>Kinh Nghiệm Làm Việc</h2>
-            <h3>Công ty XYZ</h3>
-            <p>Vị trí: Nhân viên kỹ thuật</p>
-            <p>Thời gian: 20XX - 20YY</p>
-            <p>Mô tả công việc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus turpis eget consequat convallis.</p>
-        </section>
-        <section>
-            <h2>Kỹ Năng</h2>
-            <ul>
-                <li>Kỹ năng A</li>
-                <li>Kỹ năng B</li>
-                <li>Kỹ năng C</li>
-            </ul>
-        </section>
+        <!-- Các phần khác tương tự có thể thêm ở đây -->
     </div>
+
+    <!-- Bootstrap JS và Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
